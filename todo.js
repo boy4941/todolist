@@ -10,6 +10,10 @@ const onClick=()=>{
     const p=document.createElement("p")
     const input=document.createElement("input");
 
+    div.id="aa"
+    input.id="input"
+    p.id="p"
+    button.id="button"
     li.appendChild(div);
     div.appendChild(input);
     div.appendChild(p);
